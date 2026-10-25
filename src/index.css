@@ -260,9 +260,6 @@ h3 { font-family: var(--display); font-weight: 650; font-size: 1.5rem; line-heig
 .marquee-track span:hover { border-color: var(--blue); color: #fff; }
 @keyframes slide { to { transform: translateX(calc(-50% - 0.45rem)); } }
 
-/* ---------- AICFO ---------- */
-.aicfo-grid { display: grid; grid-template-columns: 1fr 20rem; gap: 1rem; }
-@media (max-width: 900px) { .aicfo-grid { grid-template-columns: 1fr; } }
 .graph { background: var(--sheet); border: 1px solid var(--rule-2); border-radius: 14px; padding: 1.4rem 1.5rem; }
 .graph-ask { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .graph-q { margin: 0; font-size: 1.2rem; font-family: var(--display); font-weight: 500; }
@@ -479,7 +476,6 @@ h3 { font-family: var(--display); font-weight: 650; font-size: 1.5rem; line-heig
 .stack-group dd { margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 @media (max-width: 640px) { .stack-group { grid-template-columns: 1fr; } }
 
-.aicfo-showcase { margin-bottom: 0.5rem; }
 .side-project .chip-row { margin-top: 1rem; }
 
 /* Filters with a sliding ink */

@@ -76,7 +76,7 @@ function Menu({ label, children: kids, mouseX, active, onGo }) {
   )
 }
 
-export default function Dock({ items, onGo, resume }) {
+export default function Dock({ items, onGo }) {
   const mouseX = useMotionValue(-9999)
   const [current, setCurrent] = useState(items[0][0])
 
@@ -110,7 +110,6 @@ export default function Dock({ items, onGo, resume }) {
           <Item key={id} id={id} label={label} mouseX={mouseX} active={current === id} onGo={onGo} />
         ),
       )}
-      <a className="dock-cta" href={resume} download>Resume</a>
     </motion.nav>
   )
 }
