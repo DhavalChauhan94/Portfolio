@@ -38,6 +38,19 @@ export const capabilities = [
 
 export const experience = [
   {
+    when: 'April 2026 – now',
+    title: 'Full stack & AI automation engineer',
+    org: 'Colonel',
+    where: 'Mumbai',
+    current: true,
+    points: [
+      { head: 'AI agents', text: 'Architect and ship 30+ agents in GST, reconciliation, marketplace sales, receivables, invoice processing and CFO reporting suites for 20+ D2C brands.', tools: ['React 18', 'Node.js 24', 'Python 3.11', 'Claude', 'Gemini'] },
+      { head: 'Data layer', text: 'Merged per-brand databases into one PostgreSQL 16 schema with brand-scoped access, migrations, idempotent writes, JWT and Google login, and role-based access.', tools: ['PostgreSQL 16', 'Sequelize 6', 'JWT', 'Google'] },
+      { head: 'Cloud infra', text: 'Moved the live app to a new AWS account: EC2, Elastic IP, the agent.accountant domain, Nginx with HTTPS, hardened security groups and SSH, PM2, backups and AMI rollback.', tools: ['AWS EC2', 'Nginx', "Let's Encrypt", 'PM2', 'Ubuntu'] },
+      { head: 'Integrations', text: 'Connected Amazon SP-API, Shopify, Zepto, Zoho Books, logistics and payment providers and Google Workspace, plus Gemini and Claude pipelines in n8n that turn documents into Tally entries.', tools: ['Amazon SP-API', 'Shopify', 'Zoho Books', 'n8n', 'Google Drive'] },
+    ],
+  },
+  {
     when: 'July – November 2025',
     title: 'Web development intern',
     org: 'GAOTek Inc.',
